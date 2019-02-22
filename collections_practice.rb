@@ -59,8 +59,16 @@ end
 
 def sum_array2(array)
   array.inject { |sum, n| sum + n }
-  
 end 
+
+
+def add_s(array)
+  array.each_with_index.collect { |element
+    
+  }
+end 
+
+
 
 
 
