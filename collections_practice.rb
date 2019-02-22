@@ -65,7 +65,9 @@ end
 def add_s(array)
   array.each_with_index.collect { |element, index| 
     if index != 1 
-      
+      string_array = element.chars
+      string_array.push("s")
+      element = string_array.join 
     end 
   }
 end 
