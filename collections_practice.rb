@@ -33,7 +33,10 @@ def reverse_array(array)
 end 
 
 def kesha_marker(array)
-  
+  new_array = []
+  array.each do |x|
+    
+  end 
 end 
 
 
