@@ -35,8 +35,11 @@ end
 def kesha_marker(array)
   new_array = []
   array.each do |x|
-    
-  end 
+    string_array = x.chars
+    string_array[2] = "$"
+    new_array << new_string = string_array.join
+  end
+  new_array
 end 
 
 
