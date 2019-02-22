@@ -31,3 +31,23 @@ swap_elements_from_to(["a", "b", "c"], 0, 2)
 def reverse_array(array)
   new_array = array.reverse 
 end 
+
+def kesha_marker(array)
+  
+end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
