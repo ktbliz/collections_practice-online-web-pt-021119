@@ -68,6 +68,8 @@ def add_s(array)
       string_array = element.chars
       string_array.push("s")
       element = string_array.join 
+    else 
+      element 
     end 
   }
 end 
