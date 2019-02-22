@@ -32,7 +32,7 @@ def reverse_array(array)
   new_array = array.reverse 
 end 
 
-def kesha_marker(array)
+def kesha_maker(array)
   new_array = []
   array.each do |x|
     string_array = x.chars
