@@ -53,6 +53,7 @@ def sum_array(array)
   array.each { |integer|
     sum += integer
   }
+  sum 
 end 
 
 
